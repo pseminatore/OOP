@@ -90,7 +90,6 @@ public class Main {
                     if (j==0){
                         int ascii = guess - 32;
                         char aGuess = (char)ascii;
-                        blanks[j]= aGuess;
                     }
                     blanks[j] = guess;
                     wrong = false;
